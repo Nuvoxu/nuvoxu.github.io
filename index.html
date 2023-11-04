@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <link rel="icon" type="image/x-icon" href="./img/favicon.png">
+    <link href="./style.css" rel="stylesheet">
+    <title>Nuvoxu</title>
+</head>
+
+<body>
+    <header class="hero-section">
+        <div class="hero-text">
+            <img src="./img/icon.svg" style="width: clamp(10rem, 2vw, 10rem); margin-bottom: 10px;" draggable="false"
+                alt="Nuvoxu Logo" id="logo">
+            <br>
+            <br>
+            <p class="text-black-50" style="font-family: Font-Regular; margin-bottom: 0px;">We're here to Supercharge Your Business
+                <br>
+                <br>
+                <a class="btn btn-primary" href="mailto:hello@nuvoxu.com">Email Us</a>
+                <br>
+                <br>
+            <p class="text-black-50" id="copyright-text">&copy; Nuvoxu Limited <span id="footer-year">2023</span></p>
+            <script>
+                newDate = new Date();
+                document.getElementById("footer-year").innerHTML = newDate.getFullYear();
+            </script>
+            <script>
+                document.addEventListener('contextmenu', function (e) {
+                    e.preventDefault();
+                });
+            </script>
+        </div>
+    </header>
+</body>
+
+</html>
