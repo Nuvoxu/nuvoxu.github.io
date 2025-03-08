@@ -51,25 +51,77 @@
                         <h1 class="fw-bold" data-aos="fade" data-aos-duration="1000" data-aos-delay="750" data-aos-once="true">Our Marketing Helps You<br><span class="gradient-text text-animation" id="animated-text">Attract Clients</span></h1>
                     </div>
                 </div>
-                <div class="col-12 mx-auto flex-column justify-content my-4" style="z-index: 11;">
+                <div class="col-12 mx-auto flex-column justify-content mt-4 mb-2" style="z-index: 11;">
                     <div class="position-relative" data-aos="zoom-in-down" data-aos-duration="1000" data-aos-delay="750" data-aos-once="true" style="display: flex;flex-direction: column;align-items: center;"><img class="rounded img-fluid" alt="Rocket" data-bss-parallax="" data-bss-parallax-speed="0.14" src="assets/img/rocket.webp" style="border-radius: 32px; width: 100%; max-width: 650px;"><p class="fw-bold mt-3 mb-0 text-center" data-bss-parallax="" data-bss-parallax-speed="0.07" style="color: #808080;">Figure 1 - Your Metrics After Partnering With Us</p></div>
                 </div>
             </div>
         </div>
     </header>
-    <section style="overflow-x: hidden; overflow-y: auto;">
+    <section style="overflow-x: hidden; overflow-y: hidden;">
         <div class="container bg-dark">
             <div class="row" id="services">
-                <div class="text-center mx-auto" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="-1080" data-aos-delay="750" data-aos-once="true">
-                    <h2 class="fw-bold mb-0">Services We Offer</h2>
+                <div class="text-center mx-auto" data-aos="zoom-in" data-aos-duration="1000" data-aos-offset="-1080"
+                    data-aos-delay="750" data-aos-once="true">
+                    <h2 class="fw-bold mb-0">Website Notice</h2>
                 </div>
             </div>
-            <div style="margin-bottom: 0px; max-width: 100%;" class="py-4" data-aos="fade" data-aos-delay="1250" data-aos-offset="-1080" data-aos-once="true">
+            <div style="margin-bottom: 0px;" class="py-4" data-aos="fade" data-aos-delay="1250"
+                data-aos-offset="-1080" data-aos-once="true">
                 <div class="row row-cols-1  flex-wrap mx-auto" style="max-width: 650px;">
                     <div class="col">
-                        <div class="card shadow-sm mx-auto" data-aos="zoom-out" style="border-width: 4px;border-color: #F8F8F8;border-radius: 32px;background: #FFFFFF; width: fit-content;">
+                        <div class="card shadow-sm mx-auto" data-aos="zoom-out"
+                            style="border-width: 4px;border-color: #F8F8F8;border-radius: 32px;background: #FFFFFF; width: fit-content;">
                             <div class="card-body px-4 py-4" style="height: auto;">
-                                <p class="text-muted card-text text-center" style="margin-bottom: 0px;">We're currently updating the services section of our website.<br><br>In the meantime, you can <a href="#contact" style="color:#808080">contact us</a> to find out how we can help.<br><br>We'll update this section with the latest information when it's ready!</p>
+                                <p class="text-muted card-text text-center" style="margin-bottom: 0px;">We're currently updating our website.<br><br>In the meantime, you can contact us with any questions.<br><br>Enter your email below to be notified when the new website goes live:</p>
+                                <form 
+                                    action="https://submit-form.com/RYrigyaNr" 
+                                    method="POST" 
+                                    onsubmit="return validateForm()"
+                                >
+                                    <div class="mb-3 mt-3">
+                                        <input type="email" class="form-control" id="subscribeEmail" name="subscribeEmail"
+                                            placeholder="name@example.com" required>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        Submit
+                                    </button>
+                                </form>
+                                <br>
+                                <p class="text-muted card-text text-center" style="margin-bottom: 0px;">Enter your details below to contact us with any questions:</p>
+                                <form 
+                                action="https://submit-form.com/RYrigyaNr" 
+                                method="POST" 
+                                onsubmit="return validateForm()"
+                                >
+                                    <div class="mb-3">
+                                        <label for="contactName" class="form-label text-muted card-text">Name</label>
+                                        <input type="text" class="form-control" id="contactName" name="contactName"
+                                            placeholder="Your full name" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactEmail" class="form-label text-muted card-text">Email</label>
+                                        <input type="email" class="form-control" id="contactEmail" name="contactEmail"
+                                            placeholder="name@example.com" required>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="services" class="form-label text-muted card-text">Relevant Service</label>
+                                        <select class="form-select" id="services" name="services" required>
+                                            <option value="" selected disabled>Select a service</option>
+                                            <option value="Web Development">Web Development</option>
+                                            <option value="Graphic Design">Graphic Design</option>
+                                            <option value="Marketing & SEO">Marketing &amp; SEO</option>
+                                            <option value="Other (Mention in Message)">Other (Mention in Message)</option>
+                                        </select>
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="contactMessage" class="form-label text-muted card-text">Message</label>
+                                        <textarea class="form-control" id="contactMessage" name="contactMessage" rows="5"
+                                            placeholder="Tell us more about your project or needs..." required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary w-100">
+                                        Submit
+                                    </button>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -81,12 +133,12 @@
         <div class="container" data-aos="fade" data-aos-once="true">
             <div class="row mb-5" id="contact">
                 <div class="text-center mx-auto" data-aos="zoom-in">
-                    <h2 class="fw-bold">How to Contact Us</h2>
+                    <h2 class="fw-bold">Our Email</h2>
                 </div>
             </div>
             <div class="row d-flex justify-content-center">
                 <div class="col-md-4 col-xl-4" data-aos="zoom-in-down" data-aos-duration="500" style="margin-top: -32px;margin-bottom: -32px;"><a href="mailto:hello@nuvoxu.com" aria-label="Email Nuvoxu" target="_blank">
-                        <div class="d-flex flex-column justify-content-between align-items-center align-items-lg-center p-3" style="height: 120px;">
+                        <div class="d-flex flex-column justify-content-between align-items-center align-items-lg-center p-3 pb-2" style="height: 120px;">
                             <div class="bs-icon-md bs-icon-circle bs-icon-primary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md hover-zoom" style="background: #00A7A7;">
                                 <picture class="" style="height: auto; filter: invert(100%);"><img alt="Email Icon" style="height: auto;width: auto;" src="assets/img/email.svg"></picture>
                             </div>
@@ -100,8 +152,8 @@
         <div class="container text-center" style="padding-top: 40px; padding-bottom: 12px;">
             <hr style="color: #F8F8F8; background-color: #F8F8F8; height: 4px; border-radius: 32px;">
             <div class="d-flex justify-content-between align-items-center">
-                <p class="mb-0 fw-bold mb-2" style="color: #808080">© <span id="footer-year">2024</span> Nuvoxu Limited - All Rights Reserved</p><a href="#" aria-label="Nuvoxu Website">
-                    <picture style="height: 64px;"><img alt="Nuvoxu Icon" style="height: auto;width: 64px;" src="assets/img/icon.png" width="64" height="64"></picture>
+                <p class="mb-0 fw-bold mb-2 text-start" style="color: #808080">© <span id="footer-year">2025</span> Nuvoxu Limited (14630185)<br>All Rights Reserved</p><a href="#" aria-label="Nuvoxu Website">
+                <picture style="height: 64px;"><img alt="Nuvoxu Icon" style="height: auto;width: 64px;" src="assets/img/icon.png" width="64" height="64"></picture>
                 </a>
             </div>
         </div>
@@ -166,6 +218,41 @@
         animatedText.classList.add("fade-in-up");
         setInterval(updateText, 4000);
             </script>
+
+        <script>
+            function validateForm() {
+                // Basic regex for demonstration; adjust as needed.
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                
+                // Validate "contactEmail"
+                const contactEmailInput = document.getElementById('contactEmail');
+                if (contactEmailInput) {
+                const contactEmailValue = contactEmailInput.value.trim();
+                if (!emailRegex.test(contactEmailValue)) {
+                    alert('Please enter a valid contact email address.');
+                    contactEmailInput.focus();
+                    return false; // Prevent form submission
+                }
+                }
+                
+                // Validate "subscribeEmail"
+                const subscribeEmailInput = document.getElementById('subscribeEmail');
+                // Only check if the subscribeEmail field actually exists on this page
+                if (subscribeEmailInput) {
+                const subscribeEmailValue = subscribeEmailInput.value.trim();
+                // If it's not empty, enforce the same validation
+                // (optional) If you want to *require* a valid email whenever present, remove the `if(subscribeEmailValue)` check
+                if (subscribeEmailValue && !emailRegex.test(subscribeEmailValue)) {
+                    alert('Please enter a valid subscription email address.');
+                    subscribeEmailInput.focus();
+                    return false; // Prevent form submission
+                }
+                }
+                
+                return true; // All validations passed
+            }
+        </script>
+  
 </body>
 
 </html>
